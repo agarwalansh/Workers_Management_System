@@ -1,5 +1,5 @@
 # Introduction - Worker Management System
-Project provides a platform for Online Talent Recruitment. Build on HTML5 , CSS3 , JavaScript, PHP.
+Project provides a platform for Online Talent Recruitment. Build on HTML5 , CSS3 , JavaScript, PHP & MySQL.
 
 # Prerequisite 
 1. XAMPP web server.
