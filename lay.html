@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head> <title>HOME | CL Inc.</title>
+ <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="style.css">
+   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   
+<link href="style.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+</head>
+<body>
+
+<div id="header">
+<img src="cli.jpg" class="logo"> &nbsp
+<img src="extended.jpg" class="banner">
+</div>
+<div id='cssmenu'>
+<hr size="4" color="#cc0000">
+<ul>
+<li><a href="lay.html">Home</a></li>
+<li><a href="company.php">Companies</a></li>
+<li><a href="customer.php">Customers</a></li>
+<li><a href="labour.php">Labours</a></li>
+<li><a href="aboutus.html">About us</a></li>
+<li><a href="contactus.php">Contact us</a></li>
+</ul>
+</div>
+
+<div id="aside">
+<u class="update"><center>UPDATES</center></u><br>
+<marquee  behavior="scroll" direction="up" height="90%">
+<p class="news">Registerations Are Free, <br> Join Now!</p>
+
+<p class="news">Tata Has Tied Up with Us</p>
+<p class="news">Urgent Labours Required</p>
+<p class="news">On day wages with job satisfaction</p>
+</marquee>
+
+</div>
+<div class="w3-content w3-display-container">
+  <a href="details.php?name=1"><img class="mySlides" src="reliance.jpg" style="height:425px; width:100%"></a>
+  <a href="details.php?name=2"><img class="mySlides" src="lodha.jpg" style="height:425px; width:100%"></a>
+  <a href="details.php?name=3"><img class="mySlides" src="larsen.jpg" style="height:425px; width:100%"></a>
+  <a href="details.php?name=4"><img class="mySlides" src="tata.jpg" style="height:425px; width:100%"></a>
+  <a href="details.php?name=5"><img class="mySlides" src="hiranandani.jpg" style="height:425px; width:100%"></a>
+</div>
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1}
+    x[slideIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); 
+}
+</script>
+<div id="footer" >
+<p>Follow Us On </p>
+<a href="https://www.facebook.com/anshtgr8"><img src="fb.png" height="30px" width="30px"></a>&nbsp&nbsp
+<a href="https://www.instagram.com/agarwal_anshul/"><img src="insta.png" height="30px" width="30px"></a>&nbsp&nbsp
+<a href="https://twitter.com/nimesh_doolani?s=08"><img src="twitter.png" height="30px" width="30px"></a>
+<p>All rights reserved | CL Inc. </p>
+</div>
+
+</body>
+</html>
